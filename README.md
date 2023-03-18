@@ -14,3 +14,6 @@ in client:
 ##### In config repository put properties file named by application name: jis6.properties of jis6.yml. That will be default profile.
 ##### To make properties for another profile add it name following hyphen: jis6-dev.properties
 
+## Endpoints
+http://localhost:8888/test-config.properties
+http://localhost:8888/jis6/master
