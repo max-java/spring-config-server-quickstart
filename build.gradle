@@ -18,7 +18,9 @@ ext {
 
 dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-config-server'
-	implementation group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
+//	implementation 'org.springframework.cloud:spring-cloud-starter-config'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+//	implementation group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
