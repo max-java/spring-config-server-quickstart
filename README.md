@@ -17,3 +17,14 @@ in client:
 ## Endpoints
 http://localhost:8888/test-config.properties
 http://localhost:8888/jis6/master
+
+
+## Docker
+build image
+```bash
+ docker build -t tutrit/config_server .
+```
+run image
+```bash
+docker run -p 8888:8888 tutrit/config_server
+```

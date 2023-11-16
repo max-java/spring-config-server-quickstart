@@ -13,6 +13,6 @@ public class MyController {
 
     @GetMapping("/")
     public String test() {
-        return environment.getProperty("spring.jpa.database");
+        return "%s %s".formatted("spring.jpa.database", environment.getProperty("spring.jpa.database"));
     }
 }
